@@ -1,0 +1,12 @@
+version: "3"
+services:
+  web:
+    container_name: wisl-test
+    restart: always
+    build: .
+    ports:
+      - "8001:8001"
+    volumes:
+      - .:/wisl
+    env_file:
+      .env
