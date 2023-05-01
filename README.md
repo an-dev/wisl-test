@@ -1,6 +1,7 @@
 # Notes
 
 Run with `docker compose up -d`
+
 Swagger API Docs: http://localhost:8001/docs
 
 A lean approach was used to develop the exercise given the time limit constraint.
